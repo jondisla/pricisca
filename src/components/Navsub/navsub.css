@@ -1,0 +1,70 @@
+/** @format */
+#navsub {
+  background-color: white;
+  color: white;
+  font-size: 25px;
+  padding: 20px 0;
+  height: 80px;
+  position: fixed;
+  top: 85px;
+  width: 100%;
+}
+
+#navsub ul {
+  width: 900px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 0 auto;
+  gap: 0 20px;
+}
+
+#navsub ul li button {
+  border: hidden;
+  border-radius: 5px;
+  width: 130px;
+  height: 40px;
+  background-color: #d2d2d2;
+}
+
+#navsub ul .pages {
+  margin: 0 auto !important;
+}
+
+#navsub ul .pages a {
+  font-size: 16px;
+  color: #525252;
+  text-decoration: none;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+#navsub ul .shop-now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+#navsub ul .shop-now button {
+  color: white;
+  background-color: red;
+}
+/*# sourceMappingURL=navsub.css.map */

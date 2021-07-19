@@ -1,0 +1,55 @@
+/** @format */
+
+nav {
+  background-color: #0f233c;
+  color: white;
+  font-size: 25px;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  ul {
+    width: 900px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    gap: 0 20px;
+    li {
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      img {
+        width: 40px;
+      }
+      .search-bar {
+        margin: 0 auto !important;
+      }
+      input {
+        width: 400px;
+        height: 40px;
+        border: hidden;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      button {
+        border: 0px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: red;
+        width: 40px;
+        height: 40px;
+        color: white;
+      }
+    }
+    .shop-icons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: auto;
+      gap: 20px;
+    }
+  }
+}
